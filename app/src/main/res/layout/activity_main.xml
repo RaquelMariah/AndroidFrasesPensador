@@ -33,7 +33,7 @@
         android:layout_width="355dp"
         android:layout_height="190dp"
         android:layout_marginTop="100dp"
-        android:fontFamily="cursive"
+        android:fontFamily="serif"
         android:text="Lorem Ipsum"
         android:textAlignment="center"
         android:textSize="24sp"
