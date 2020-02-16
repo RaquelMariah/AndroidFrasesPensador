@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2D2F31"
     tools:context=".MainActivity">
 
     <ImageView
@@ -22,8 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Frase Diária"
         android:onClick="gerarNovaFrase"
+        android:text="Frase Diária"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -34,7 +35,7 @@
         android:layout_height="190dp"
         android:layout_marginTop="100dp"
         android:fontFamily="serif"
-        android:text="Lorem Ipsum"
+        android:text="Pressione o botão"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="italic"
